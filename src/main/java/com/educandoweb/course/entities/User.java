@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
 //Notes a JPA entity and names it
 @Entity
 @Table(name = "tb_user")
-public class User implements Serializable{
+public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	//Defines primary key and auto-generation type
